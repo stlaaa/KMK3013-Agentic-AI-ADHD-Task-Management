@@ -1,0 +1,63 @@
+ORIGINAL EXECUTION TRACE
+
+Rule Checked:
+Stage 1 (Recipient/Intent)
+
+Rule Checked:
+Stage 2 (Radioactive Vault)
+
+Rule Checked:
+Stage 3 & 4 (Domain & Accuracy)
+
+Strategy Selected:
+Micro-tasking
+
+Strategy Selected:
+Environment Priming
+
+Reason for Strategy Selection:
+The AI generated additional reasoning stages and strategy labels before producing the final response. These reasoning structures were not part of the expert-derived knowledge base, procedural tools, or system architecture.
+
+Final Response:
+The AI advised the user to place their phone away, set a timer, and begin with a small part of the assignment. Although the response was generally helpful, the execution trace contained unsupported reasoning structures and strategy labels.
+
+
+REVISED EXECUTION TRACE
+
+Rule checked:
+
+IF a task is long or contains many activities, THEN break the task into smaller and manageable steps.
+
+IF the user reports feeling overwhelmed, stressed, or unsure where to start, THEN provide only one or two simple starting steps first.
+
+IF the user shows signs of distraction or difficulty maintaining focus, THEN suggest using timers or reminders.
+
+IF the user requires emotional support or motivation, THEN provide supportive and encouraging responses.
+
+IF a task is long or highly complicated, THEN recognize that it may increase procrastination, stress, and task avoidance behavior.
+
+Tool selected:
+
+Task_Chunking_Tool
+
+Focus_Timer_Tool
+
+Motivation_Tool
+
+Reason for tool use:
+
+The user is facing a long, complex task due very soon, which is causing stress and potential task avoidance. Because the user feels overwhelmed, only a small number of starting steps should be provided to prevent cognitive overload. The user also reports distraction from their phone, making a structured focus strategy appropriate. Motivation_Tool was selected to provide encouragement and reduce anxiety.
+
+Final Response:
+
+I completely understand why you feel overwhelmed right now. Facing a 3-hour assignment with a tight deadline is a lot of pressure, and it makes sense that distractions such as your phone become more appealing when stress increases.
+
+You do not have to finish the entire assignment right now. We are only focusing on getting started.
+
+Step 1:
+Put your phone in another room or out of sight and set a timer for 15 minutes.
+
+Step 2:
+Open the assignment document and read only the instructions. Do not start writing yet. Simply focus on understanding what is required.
+
+You can absolutely do this. Just 15 minutes. Let me know when your timer goes off, and we will figure out the next tiny step together!
